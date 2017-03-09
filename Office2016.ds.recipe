@@ -18,7 +18,7 @@ Input keys:
         <key>DS_PKGS_PATH</key>
         <string>/Volumes/Datas/CD_install/Microsoft/Office/Mac/Office_2016/Boite_et_Office365</string>
         <key>DS_NAME</key>
-        <string>%NAME%</string>
+        <string>SuiteOffice2016/string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
