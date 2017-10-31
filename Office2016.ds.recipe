@@ -4,7 +4,7 @@
 <dict>
     <key>Description</key>
     <!-- Thanks https://github.com/autopkg/jazzace-recipes for the template -->
-    <string>Downloads latest version of AdwareMedic, packages it, and then copies the package to the DeployStudio packages repository.
+    <string>Downloads latest version of Office 2016, packages it, and then copies the package to the DeployStudio packages repository.
 Input keys:
 - DS_PKGS_PATH is the path for the Packages folder in the DeployStudio repository (trailing slash not required/desired).
   The path does not need to be on the same volume as the cache, as the pkg is being duplicated.
