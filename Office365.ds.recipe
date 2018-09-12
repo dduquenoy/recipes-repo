@@ -4,7 +4,7 @@
 <dict>
     <key>Description</key>
     <!-- Thanks https://github.com/autopkg/jazzace-recipes for the template -->
-    <string>Downloads latest version of Office 2016, packages it, and then copies the package to the DeployStudio packages repository.
+    <string>Downloads latest version of Office 365, packages it, and then copies the package to the DeployStudio packages repository.
 Input keys:
 - DS_PKGS_PATH is the path for the Packages folder in the DeployStudio repository (trailing slash not required/desired).
   The path does not need to be on the same volume as the cache, as the pkg is being duplicated.
@@ -12,13 +12,13 @@ Input keys:
   It defaults to %NAME% (just the app name); use %pkgname% if you want the version number appended.
 </string>
     <key>Identifier</key>
-    <string>com.github.dduquenoy.ds.office2016</string>
+    <string>com.github.dduquenoy.ds.office365</string>
     <key>Input</key>
     <dict>
         <key>DS_PKGS_PATH</key>
-        <string>/Volumes/Datas/CD_install/Microsoft/Office/Mac/Office_2016/Boite</string>
+        <string>/Volumes/Datas/CD_install/Microsoft/Office/Mac/Office_365/</string>
         <key>DS_NAME</key>
-        <string>SuiteOffice2016</string>
+        <string>SuiteOffice365</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
