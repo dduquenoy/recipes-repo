@@ -23,7 +23,7 @@ Input keys:
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.rtrouton.pkg.Office2016Suite</string>
+    <string>com.github.rtrouton.download.MicrosoftOffice365Suite</string>
     <key>Process</key>
     <array>
         <dict>
